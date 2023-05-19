@@ -1,0 +1,180 @@
+body{
+    background-color: #f0f0f0 !important;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000 !important;
+}
+
+h2{
+    font-size: 35px;
+}
+
+header{
+
+    width: 100%;
+    padding: 0 !important;
+
+}
+
+main{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    margin: 20px 0;
+    padding: 15px 15px;
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: 900;
+}
+
+.btn-red{
+    background-color: #ff2000;
+    color: #fff;
+}
+
+.btn-rounded{
+    border-radius: 50px;
+}
+
+.btn-red:hover{
+    background-color: #0000ff;
+    
+}
+
+
+.container
+{
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/***************Page Title Start**************/
+
+.logo{
+    text-align: center;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.page-title{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 0, 0, 1);
+    font-size: 2em;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+}
+
+/***************Page Title End**************/
+
+/***************Navbar Start**************/
+
+.nav-menu{
+    text-align: center;
+    background-color: #ff6347;
+    padding: 20px 0 20px 0;
+}
+
+.nav-menu ul>li{
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+
+.nav-menu ul>li>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-menu ul>li>a:hover{
+    text-decoration: none;
+    color: #0000ff ;
+}
+
+/***************Navbar End**************/
+
+/***************Services Start**************/
+#services ul>li{
+    list-style:decimal;
+    display: inline-block; 
+    background-color: #fff;
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    font-weight: 900;
+    color: #ff2000;
+    border-radius: 50px;
+    
+}
+
+
+.service-item{
+    width: 30%;
+    min-height: 500px;
+    display:inline-block ;
+    background: #fff;
+    padding: 20px 20px;
+    margin:  20px 0;
+    align-items: center;
+    justify-content: center;
+    vertical-align:top;
+}
+
+.service-item p{
+    display: inline;
+}
+
+.service-item .service-img{
+    width: 100%;
+    
+}
+
+@media (max-width:768px) {
+    .service-item{
+        width: 100% !important;
+    }
+}
+
+/***************Services End**************/
+
+/*************Contact Start**************/
+.card{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    width: 40%;
+}
+
+.form-group{
+    padding: 5px 0;
+    width: 100%;
+}
+
+.form-group input{
+    border: 1px solid #ccc;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+.form-group textarea{
+    border: 1px solid #ccc;
+    padding: 10px 5px;
+    width: 100%;
+}
+
+.card .btn{
+    width: 100% !important;
+}
+/*************Contact End**************/
